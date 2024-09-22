@@ -1,0 +1,80 @@
+body{
+    background-color:powderblue;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.intro1{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.intro1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+button{
+    cursor: pointer;
+    background-color: bisque;
+    border-radius: 10px;
+    height: 30px;
+}
+.intro2 img{
+    border-radius: 20px;
+}
+.nav{
+    display: flex;
+    padding-top: 5px;
+}
+.nav ul {
+    display: flex;
+    padding-left:330px;
+    padding-top: -10px;
+}
+.nav ul li a{
+    padding-left: 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav ul li{
+    display: inline-flex;
+}
+.nav ul li a:hover{
+    color: tomato;
+}
+.about h2, .services h2,.contacts h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.about p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+.about{
+    padding-top: 10px;
+}
+.services p{
+    padding-left: 300px;
+    font-size: large;
+}
+.services ul{
+    padding-left: 700px;
+    list-style-type: style circle;
+}
+.contacts ul li{
+    display: inline-block;
+    padding-left: 300px;
+}
+span{
+    font-size: larger;
+    color: brown;
+    text-transform: uppercase;
+}
+
